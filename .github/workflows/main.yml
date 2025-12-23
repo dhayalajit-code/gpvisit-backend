@@ -32,3 +32,4 @@ jobs:
           app-name: gpvisit-api-2
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: app.zip
+# trigger redeploy
